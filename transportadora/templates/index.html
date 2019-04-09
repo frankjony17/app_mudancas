@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block javascripts %}<script type="text/javascript">
+    Ext.application({
+        name: 'ney',
+        appFolder: '/static',
+        controllers: [
+            'viewport',
+            'cliente',
+            'mudanca',
+            'servicio',
+            'material'
+        ],
+        launch: function() {
+            Ext.create('ney.view.viewport', { user: "TEST-PROD" });
+        }
+    });
+</script>{% endblock %}

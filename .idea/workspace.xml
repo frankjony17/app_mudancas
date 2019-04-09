@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1aacd077-6f14-41b3-ba1e-535d68ebbbee" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - mudancas_db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - mudancas_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - mudancas_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mudancas_db: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - mudancas_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mudancas_db: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - mudancas_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mudancas_db: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/transportadora/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ocurrencia</find>
+      <find>t.</find>
+      <find>Trabajador</find>
+      <find>Endereco</find>
+      <find>Cliente</find>
+      <find>mudanca</find>
+      <find>edit</find>
+      <find>estado</find>
+      <find>ServicioTipo</find>
+      <find>observacao</find>
+      <find>cliente</find>
+      <find>servicio</find>
+      <find>servico</find>
+      <find>materiales</find>
+      <find>loadPage</find>
+      <find>etecsa</find>
+      <find>id</find>
+      <find>vistoria</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>e.</replace>
+      <replace>cliente</replace>
+      <replace>Cliente</replace>
+      <replace>mudanca</replace>
+      <replace>Mudanca</replace>
+      <replace>status</replace>
+      <replace>observacao</replace>
+      <replace>MaterialTipo</replace>
+      <replace>servico</replace>
+      <replace>servicio</replace>
+      <replace>material</replace>
+      <replace>filtrar</replace>
+      <replace>ney</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/transportadora/static/controller/cliente.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/status.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/estado.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/observacao.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/servicio/grid.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/material/grid.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/menu.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/controller/servicio.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/servico.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/material.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/servicio/form.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/material/form.js" />
+        <option value="$PROJECT_DIR$/transportadora/templates/index.html" />
+        <option value="$PROJECT_DIR$/transportadora/static/controller/material.js" />
+        <option value="$PROJECT_DIR$/transportadora/views/cliente.py" />
+        <option value="$PROJECT_DIR$/transportadora/views/endereco.py" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/form.js" />
+        <option value="$PROJECT_DIR$/transportadora/views/mudanca.py" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/mudanca.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/servicios.js" />
+        <option value="$PROJECT_DIR$/transportadora/views/servicio_tipo.py" />
+        <option value="$PROJECT_DIR$/transportadora/views/material_tipo.py" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/materiales.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/viewport.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/filtrar.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/search_grid.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/search_grid.js" />
+        <option value="$PROJECT_DIR$/transportadora/urls.py" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/cliente.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/mudanca/grid.js" />
+        <option value="$PROJECT_DIR$/transportadora/views/search.py" />
+        <option value="$PROJECT_DIR$/transportadora/static/store/search.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/view/search.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/controller/viewport.js" />
+        <option value="$PROJECT_DIR$/transportadora/static/controller/mudanca.js" />
+        <option value="$PROJECT_DIR$/NeyMudança/settings.py" />
+        <option value="$PROJECT_DIR$/NeyMudança/urls.py" />
+        <option value="$PROJECT_DIR$/security/models.py" />
+        <option value="$PROJECT_DIR$/security/views/user.py" />
+        <option value="$PROJECT_DIR$/security/views/permission.py" />
+        <option value="$PROJECT_DIR$/security/static/controller/nomenclador_tree.js" />
+        <option value="$PROJECT_DIR$/security/static/controller/pendiente_tree.js" />
+        <option value="$PROJECT_DIR$/security/static/view/viewport.js" />
+        <option value="$PROJECT_DIR$/security/templates/login.html" />
+        <option value="$PROJECT_DIR$/security/views/viewport.py" />
+        <option value="$PROJECT_DIR$/security/urls.py" />
+        <option value="$PROJECT_DIR$/security/views/login.py" />
+        <option value="$PROJECT_DIR$/transportadora/views/ney.py" />
+        <option value="$PROJECT_DIR$/security/static/controller/login.js" />
+        <option value="$PROJECT_DIR$/security/static/view/login.js" />
+        <option value="$PROJECT_DIR$/transportadora/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="576" />
+    <option name="y" value="13" />
+    <option name="width" value="1242" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NeyMudança" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeyMudança" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeyMudança" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeyMudança" type="462c0819:PsiDirectoryNode" />
+              <item name="NeyMudança" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeyMudança" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeyMudança" type="462c0819:PsiDirectoryNode" />
+              <item name="transportadora" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeyMudança" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeyMudança" type="462c0819:PsiDirectoryNode" />
+              <item name="transportadora" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\static\controller" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\static\controller\cliente" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\security\views" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\views" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\static\store" />
+      <recent name="C:\Users\Eduardo\Documents\FRANK_DJANGO\NeyMudança\transportadora\static\view" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="NeyMudança" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeyMudança" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aacd077-6f14-41b3-ba1e-535d68ebbbee" name="Default" comment="" />
+      <created>1545246734473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545246734473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.7384868" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="22" y="161" width="1322" height="406" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.7384868" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="22" y="161" width="1322" height="406" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://DATABASE/b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.cliente">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.cliente</OriginalElement>
+          <nodes>
+            <node x="26.25" y="647.5">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_material</node>
+            <node x="306.25" y="358.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca</node>
+            <node x="583.25" y="647.5">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_servicio</node>
+            <node x="645.25" y="424.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.servicio_tipo</node>
+            <node x="0.0" y="799.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.user</node>
+            <node x="227.25" y="614.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.estado</node>
+            <node x="223.0" y="0.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.cliente</node>
+            <node x="405.25" y="636.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.observacao</node>
+            <node x="0.0" y="424.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.material_tipo</node>
+            <node x="400.5" y="168.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.vistoria</node>
+            <node x="218.5" y="168.0">b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.endereco</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.endereco">
+              <point x="-44.5" y="-103.0" />
+              <point x="350.75" y="333.0" />
+              <point x="299.5" y="333.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.observacao" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca">
+              <point x="0.0" y="-48.0" />
+              <point x="484.25" y="594.0" />
+              <point x="417.5" y="594.0" />
+              <point x="22.25" y="103.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_material" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca">
+              <point x="45.25" y="-36.5" />
+              <point x="162.0" y="584.0" />
+              <point x="328.5" y="584.0" />
+              <point x="-66.75" y="103.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_material" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.material_tipo">
+              <point x="-45.25" y="-36.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.endereco" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.cliente">
+              <point x="0.0" y="-70.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.vistoria">
+              <point x="44.5" y="-103.0" />
+              <point x="439.75" y="333.0" />
+              <point x="491.0" y="333.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.estado" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca">
+              <point x="0.0" y="-70.0" />
+              <point x="306.25" y="594.0" />
+              <point x="373.0" y="594.0" />
+              <point x="-22.25" y="103.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_servicio" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca">
+              <point x="-44.5" y="-36.5" />
+              <point x="627.75" y="584.0" />
+              <point x="462.0" y="584.0" />
+              <point x="66.75" y="103.0" />
+            </edge>
+            <edge source="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.mudanca_servicio" target="b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.servicio_tipo">
+              <point x="44.5" y="-36.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1076502732240436" x="135.0" y="443.0" />
+          <SelectedNodes>
+            <node>b44f02d7-324b-4bf2-94ce-9753d3aa7883.TABLE:mudancas_db.public.cliente</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/views/cliente.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/store/endereco.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/store/cliente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/59af80ae/b44f02d7-324b-4bf2-94ce-9753d3aa7883/mudancas_db.public.mudanca">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/view/servicio/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/views/mudanca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeyMudança/static/js/ext-6.5.2/shared/ProgressBarPager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1975">
+          <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/store/mudanca.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/store/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/controller/viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/view/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/views/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/view/mudanca/grid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/static/controller/mudanca.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="196" column="31" lean-forward="false" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeyMudança/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/app_ocurrencia/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/app_ocurrencia/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="110" column="25" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="110" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeyMudança/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="128" column="25" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/static/controller/nomenclador_tree.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/controller/pendiente_tree.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/controller/seguridad_tree.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/controller/user.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/controller/viewport.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/store/not_permission.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/store/user.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/store/trabajador_no_user.js" />
+    <entry file="file://$PROJECT_DIR$/security/static/view/viewport.js" />
+    <entry file="file://$PROJECT_DIR$/transportadora/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeyMudança/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/views/viewport.py" />
+    <entry file="file://$PROJECT_DIR$/security/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/views/ney.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/static/controller/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/static/view/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/views/permission.py" />
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/security/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/security/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/views/user.py" />
+    <entry file="file://$PROJECT_DIR$/security/views/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="27" lean-forward="false" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/nomenclador/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1229">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_tarea_op/security_admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/pendiente/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_tarea_op/nomenclador/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_ocurrencia/ocurrencia/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/PROYECTOS/app_tarea_op/tarea_operativa/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/transportadora/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - mudancas_db@localhost" uuid="b44f02d7-324b-4bf2-94ce-9753d3aa7883">
+      <database-info product="PostgreSQL" version="9.5.15" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>ney</user-name>
+      <introspection-schemas>mudancas_db:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

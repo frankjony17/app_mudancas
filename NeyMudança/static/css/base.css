@@ -1,0 +1,11 @@
+/*//@import url(login.css);*/
+/*@import url(table.css);*/
+
+.check:before{font:16px/1 FontAwesome;color: rgb(67, 255, 72);content:"\f00c"}
+.trash:before{font:16px/1 FontAwesome;color: #606060;content:"\f1f8"}
+.close:before{font:16px/1 FontAwesome;color: rgb(255, 61, 67);content:"\f00d"}
+.logout:before{font:16px/1 FontAwesome;color: #bd4658;content:"\f023"}
+
+.wrap .x-grid-cell-inner {
+    white-space: normal;
+}

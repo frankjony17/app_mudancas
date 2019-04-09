@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="PostgreSQL - mudancas_db@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="mudancas_db">
+      <ObjectId>16385</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12373</ObjectId>
+    </database>
+    <role id="4" parent="1" name="ney">
+      <ObjectId>16384</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <ValidUntil>infinity</ValidUntil>
+    </role>
+    <role id="5" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="6" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-12-20.10:43:44.119</IntrospectionTimestamp>
+      <IntrospectionStateNumber>714</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="pg_temp_1">
+      <ObjectId>11816</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11817</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="information_schema">
+      <ObjectId>12081</ObjectId>
+    </schema>
+    <sequence id="12" parent="6" name="cliente_id_seq">
+      <ObjectId>16389</ObjectId>
+      <StateNumber>621</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="13" parent="6" name="endereco_id_seq">
+      <ObjectId>16394</ObjectId>
+      <StateNumber>626</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="14" parent="6" name="estado_id_seq">
+      <ObjectId>16399</ObjectId>
+      <StateNumber>631</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="15" parent="6" name="material_tipo_id_seq">
+      <ObjectId>16404</ObjectId>
+      <StateNumber>636</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="16" parent="6" name="mudanca_id_seq">
+      <ObjectId>16409</ObjectId>
+      <StateNumber>641</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="17" parent="6" name="mudanca_material_material_tipo_id_seq">
+      <ObjectId>16414</ObjectId>
+      <StateNumber>646</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="18" parent="6" name="observacao_id_seq">
+      <ObjectId>16425</ObjectId>
+      <StateNumber>653</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="19" parent="6" name="servicio_tipo_id_seq">
+      <ObjectId>16430</ObjectId>
+      <StateNumber>658</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="20" parent="6" name="user_id_seq">
+      <ObjectId>16435</ObjectId>
+      <StateNumber>663</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="21" parent="6" name="vistoria_id_seq">
+      <ObjectId>16440</ObjectId>
+      <StateNumber>668</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="22" parent="6" name="cliente">
+      <ObjectId>16386</ObjectId>
+      <StateNumber>706</StateNumber>
+    </table>
+    <table id="23" parent="6" name="endereco">
+      <ObjectId>16391</ObjectId>
+      <StateNumber>708</StateNumber>
+    </table>
+    <table id="24" parent="6" name="estado">
+      <ObjectId>16396</ObjectId>
+      <StateNumber>707</StateNumber>
+      <WithOids>1</WithOids>
+    </table>
+    <table id="25" parent="6" name="material_tipo">
+      <ObjectId>16401</ObjectId>
+      <StateNumber>709</StateNumber>
+    </table>
+    <table id="26" parent="6" name="mudanca">
+      <ObjectId>16406</ObjectId>
+      <StateNumber>714</StateNumber>
+    </table>
+    <table id="27" parent="6" name="mudanca_material">
+      <ObjectId>16411</ObjectId>
+      <StateNumber>710</StateNumber>
+    </table>
+    <table id="28" parent="6" name="mudanca_servicio">
+      <ObjectId>16416</ObjectId>
+      <StateNumber>712</StateNumber>
+    </table>
+    <table id="29" parent="6" name="observacao">
+      <ObjectId>16419</ObjectId>
+      <StateNumber>714</StateNumber>
+    </table>
+    <table id="30" parent="6" name="servicio_tipo">
+      <ObjectId>16427</ObjectId>
+      <StateNumber>712</StateNumber>
+    </table>
+    <table id="31" parent="6" name="user">
+      <ObjectId>16432</ObjectId>
+      <StateNumber>661</StateNumber>
+    </table>
+    <table id="32" parent="6" name="vistoria">
+      <ObjectId>16437</ObjectId>
+      <StateNumber>713</StateNumber>
+    </table>
+    <column id="33" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>671</StateNumber>
+      <DefaultExpression>nextval(&apos;public.cliente_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>cliente_id_seq</SequenceName>
+    </column>
+    <column id="34" parent="22" name="cpf">
+      <Position>2</Position>
+      <DataType>varchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="35" parent="22" name="nome">
+      <Position>3</Position>
+      <DataType>varchar(256)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="36" parent="22" name="fone">
+      <Position>4</Position>
+      <DataType>varchar(128)|0</DataType>
+      <StateNumber>619</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="37" parent="22" name="cliente_pkey">
+      <ObjectId>16454</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="38" parent="22" name="cliente_cpf_key">
+      <ObjectId>16452</ObjectId>
+      <ColNames>cpf</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="22" name="cliente_pkey">
+      <ObjectId>16455</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>cliente_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="40" parent="22" name="cliente_cpf_key">
+      <ObjectId>16453</ObjectId>
+      <ColNames>cpf</ColNames>
+      <UnderlyingIndexName>cliente_cpf_key</UnderlyingIndexName>
+    </key>
+    <column id="41" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>672</StateNumber>
+      <DefaultExpression>nextval(&apos;public.endereco_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>endereco_id_seq</SequenceName>
+    </column>
+    <column id="42" parent="23" name="origem">
+      <Position>2</Position>
+      <DataType>varchar(200)|0</DataType>
+      <StateNumber>624</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="43" parent="23" name="destino">
+      <Position>3</Position>
+      <DataType>varchar(200)|0</DataType>
+      <StateNumber>624</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="23" name="data">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>624</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="45" parent="23" name="cliente_id">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>624</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="46" parent="23" name="endereco_pkey">
+      <ObjectId>16456</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="23" name="endereco_pkey">
+      <ObjectId>16457</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>endereco_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="23" name="endereco_cliente_id_fkey">
+      <ObjectId>16482</ObjectId>
+      <ColNames>cliente_id</ColNames>
+      <RefTableId>16386</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>cliente</RefTableName>
+      <RefKeyName>cliente_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="49" parent="24" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>673</StateNumber>
+      <DefaultExpression>nextval(&apos;public.estado_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>estado_id_seq</SequenceName>
+    </column>
+    <column id="50" parent="24" name="plaso_entrega">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>629</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="51" parent="24" name="apanha">
+      <Position>3</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>629</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="52" parent="24" name="entrega">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>629</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="53" parent="24" name="mudanca_id">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>629</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="54" parent="24" name="estado_pkey">
+      <ObjectId>16458</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="24" name="estado_pkey">
+      <ObjectId>16459</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>estado_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="56" parent="24" name="estado_mudanca_id_fkey">
+      <ObjectId>16487</ObjectId>
+      <ColNames>mudanca_id</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>mudanca</RefTableName>
+      <RefKeyName>mudanca_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="57" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>674</StateNumber>
+      <DefaultExpression>nextval(&apos;public.material_tipo_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>material_tipo_id_seq</SequenceName>
+    </column>
+    <column id="58" parent="25" name="tipo">
+      <Position>2</Position>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>634</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="59" parent="25" name="material_tipo_pkey">
+      <ObjectId>16460</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="60" parent="25" name="material_tipo_tipo_key">
+      <ObjectId>16462</ObjectId>
+      <ColNames>tipo</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="25" name="material_tipo_pkey">
+      <ObjectId>16461</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>material_tipo_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="62" parent="25" name="material_tipo_tipo_key">
+      <ObjectId>16463</ObjectId>
+      <ColNames>tipo</ColNames>
+      <UnderlyingIndexName>material_tipo_tipo_key</UnderlyingIndexName>
+    </key>
+    <column id="63" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>675</StateNumber>
+      <DefaultExpression>nextval(&apos;public.mudanca_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>mudanca_id_seq</SequenceName>
+    </column>
+    <column id="64" parent="26" name="no_orden">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="65" parent="26" name="metragem">
+      <Position>3</Position>
+      <DataType>real|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>700</TypeId>
+    </column>
+    <column id="66" parent="26" name="valor_seguro">
+      <Position>4</Position>
+      <DataType>real|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>700</TypeId>
+    </column>
+    <column id="67" parent="26" name="valor_servicio">
+      <Position>5</Position>
+      <DataType>real|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>700</TypeId>
+    </column>
+    <column id="68" parent="26" name="observacao">
+      <Position>6</Position>
+      <DataType>varchar(32)|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="69" parent="26" name="vistoria_id">
+      <Position>7</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="70" parent="26" name="endereco_id">
+      <Position>8</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>639</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="71" parent="26" name="mudanca_pkey">
+      <ObjectId>16466</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="26" name="mudanca_pkey">
+      <ObjectId>16467</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>mudanca_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="73" parent="26" name="mudanca_vistoria_id_fkey">
+      <ObjectId>16517</ObjectId>
+      <ColNames>vistoria_id</ColNames>
+      <RefTableId>16437</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>vistoria</RefTableName>
+      <RefKeyName>vistoria_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="74" parent="26" name="mudanca_endereco_id_fkey">
+      <ObjectId>16492</ObjectId>
+      <ColNames>endereco_id</ColNames>
+      <RefTableId>16391</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>endereco</RefTableName>
+      <RefKeyName>endereco_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="75" parent="27" name="mudanca_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>644</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="76" parent="27" name="material_tipo_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>676</StateNumber>
+      <DefaultExpression>nextval(&apos;public.mudanca_material_material_tipo_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>mudanca_material_material_tipo_id_seq</SequenceName>
+    </column>
+    <index id="77" parent="27" name="mudanca_material_pkey">
+      <ObjectId>16464</ObjectId>
+      <ColNames>mudanca_id
+material_tipo_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="27" name="mudanca_material_pkey">
+      <ObjectId>16465</ObjectId>
+      <ColNames>mudanca_id
+material_tipo_id</ColNames>
+      <UnderlyingIndexName>mudanca_material_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="79" parent="27" name="mudanca_material_mudanca_id_fkey">
+      <ObjectId>16502</ObjectId>
+      <ColNames>mudanca_id</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>mudanca</RefTableName>
+      <RefKeyName>mudanca_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="80" parent="27" name="mudanca_material_material_tipo_id_fkey">
+      <ObjectId>16497</ObjectId>
+      <ColNames>material_tipo_id</ColNames>
+      <RefTableId>16401</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>material_tipo</RefTableName>
+      <RefKeyName>material_tipo_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="81" parent="28" name="mudanca_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>649</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="82" parent="28" name="servicio_tipo_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>649</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="83" parent="28" name="mudanca_servicio_pkey">
+      <ObjectId>16468</ObjectId>
+      <ColNames>mudanca_id
+servicio_tipo_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="84" parent="28" name="mudanca_servicio_pkey">
+      <ObjectId>16469</ObjectId>
+      <ColNames>mudanca_id
+servicio_tipo_id</ColNames>
+      <UnderlyingIndexName>mudanca_servicio_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="85" parent="28" name="mudanca_servicio_mudanca_id_fkey">
+      <ObjectId>16507</ObjectId>
+      <ColNames>mudanca_id</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>mudanca</RefTableName>
+      <RefKeyName>mudanca_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="86" parent="28" name="mudanca_servicio_servicio_tipo_id_fkey">
+      <ObjectId>16512</ObjectId>
+      <ColNames>servicio_tipo_id</ColNames>
+      <RefTableId>16427</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>servicio_tipo</RefTableName>
+      <RefKeyName>servicio_tipo_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="87" parent="29" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <DefaultExpression>nextval(&apos;public.observacao_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>observacao_id_seq</SequenceName>
+    </column>
+    <column id="88" parent="29" name="descricao">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>651</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="89" parent="29" name="mudanca_id">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>651</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="90" parent="29" name="observacao_pkey">
+      <ObjectId>16470</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="29" name="observacao_pkey">
+      <ObjectId>16471</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>observacao_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="92" parent="29" name="observacao_mudanca_id_fkey">
+      <ObjectId>16522</ObjectId>
+      <ColNames>mudanca_id</ColNames>
+      <RefTableId>16406</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>mudanca</RefTableName>
+      <RefKeyName>mudanca_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <column id="93" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;public.servicio_tipo_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>servicio_tipo_id_seq</SequenceName>
+    </column>
+    <column id="94" parent="30" name="tipo">
+      <Position>2</Position>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>656</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="95" parent="30" name="servicio_tipo_pkey">
+      <ObjectId>16472</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="96" parent="30" name="servicio_tipo_tipo_key">
+      <ObjectId>16474</ObjectId>
+      <ColNames>tipo</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="97" parent="30" name="servicio_tipo_pkey">
+      <ObjectId>16473</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>servicio_tipo_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="98" parent="30" name="servicio_tipo_tipo_key">
+      <ObjectId>16475</ObjectId>
+      <ColNames>tipo</ColNames>
+      <UnderlyingIndexName>servicio_tipo_tipo_key</UnderlyingIndexName>
+    </key>
+    <column id="99" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>679</StateNumber>
+      <DefaultExpression>nextval(&apos;public.user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>user_id_seq</SequenceName>
+    </column>
+    <column id="100" parent="31" name="username">
+      <Position>2</Position>
+      <DataType>varchar(24)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>661</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="101" parent="31" name="password">
+      <Position>3</Position>
+      <DataType>varchar(128)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>661</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="102" parent="31" name="user_pkey">
+      <ObjectId>16476</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="103" parent="31" name="user_username_key">
+      <ObjectId>16478</ObjectId>
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="31" name="user_pkey">
+      <ObjectId>16477</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="105" parent="31" name="user_username_key">
+      <ObjectId>16479</ObjectId>
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>user_username_key</UnderlyingIndexName>
+    </key>
+    <column id="106" parent="32" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>680</StateNumber>
+      <DefaultExpression>nextval(&apos;public.vistoria_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>vistoria_id_seq</SequenceName>
+    </column>
+    <column id="107" parent="32" name="data">
+      <Position>2</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>666</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="108" parent="32" name="hora">
+      <Position>3</Position>
+      <DataType>time|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>666</StateNumber>
+      <TypeId>1083</TypeId>
+    </column>
+    <column id="109" parent="32" name="vistoriador">
+      <Position>4</Position>
+      <DataType>varchar(256)|0</DataType>
+      <StateNumber>666</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="110" parent="32" name="fechada">
+      <Position>5</Position>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>666</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="111" parent="32" name="vistoria_pkey">
+      <ObjectId>16480</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="32" name="vistoria_pkey">
+      <ObjectId>16481</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>vistoria_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block javascripts %}<script type="text/javascript">
+    Ext.application({
+        name: 'ney',
+        appFolder: '/static',
+        controllers: [
+            'login'
+        ],
+        launch: function() {
+            Ext.create('ney.view.login');
+        }
+    });
+</script>{% endblock %}

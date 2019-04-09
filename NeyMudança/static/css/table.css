@@ -1,0 +1,46 @@
+/*
+    Created on : 14-ene-2014, 14:54:42
+    Author     : Frank
+*/
+.tablestayle {
+    padding-left: 40px;
+}
+.tablestayle table {
+    border: solid #ccc 1px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+}
+.tablestayle tr:hover {
+    background: #c1ddf1;
+    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+.tablestayle th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.tablestayle td {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 4px;
+    font-size: 14px;
+    text-align: left;
+}
+.tablestayle th {
+    background-color: #157fcc;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+    border-top: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.tablestayle td:first-child, .tablestayle th:first-child {
+    border-left: none;
+}
